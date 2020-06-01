@@ -1,0 +1,1 @@
+Jun 01 00:50:44.262 VM: renamed from 'R6' to 'host3'

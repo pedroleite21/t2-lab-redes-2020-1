@@ -1,0 +1,28 @@
+Jun 01 00:41:04.417 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 01 00:41:04.417 HYPERVISOR: Started on IP = localhost, TCP port = 45369.
+Jun 01 00:41:04.426 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 01 00:41:04.426 HYPERVISOR: exec_cmd: hypervisor working_dir /home/user/GNS3/projects/t2/project-files/dynamips 
+Jun 01 00:41:04.426 GENERAL: working_dir=/home/user/GNS3/projects/t2/project-files/dynamips
+Jun 01 00:41:04.427 HYPERVISOR: exec_cmd: hypervisor working_dir /home/user/GNS3/projects/t2/project-files/dynamips/e4f95bfc-b732-40b5-bb69-c2575eb5cfae 
+Jun 01 00:41:04.427 GENERAL: working_dir=/home/user/GNS3/projects/t2/project-files/dynamips/e4f95bfc-b732-40b5-bb69-c2575eb5cfae
+Jun 01 00:41:04.427 HYPERVISOR: exec_cmd: vm create R5 5 c3600 
+Jun 01 00:41:04.427 VM: VM R5 created.
+Jun 01 00:41:04.427 HYPERVISOR: exec_cmd: vm set_con_tcp_port R5 5004 
+Jun 01 00:41:04.427 HYPERVISOR: exec_cmd: c3600 get_mac_addr R5 
+Jun 01 00:41:04.428 HYPERVISOR: exec_cmd: vm set_nvram R5 256 
+Jun 01 00:41:04.428 HYPERVISOR: exec_cmd: vm set_ram R5 192 
+Jun 01 00:41:04.429 HYPERVISOR: exec_cmd: vm set_ios R5 /home/user/Downloads/IOS/c3640-a3js-mz.124-25d.image 
+Jun 01 00:41:04.429 HYPERVISOR: exec_cmd: vm get_status R5 
+Jun 01 00:41:04.429 HYPERVISOR: exec_cmd: vm set_idle_pc R5 0x6050b114 
+Jun 01 00:41:04.517 HYPERVISOR: exec_cmd: vm set_ios R5 /home/user/Downloads/IOS/c3640-a3js-mz.124-25d.image 
+Jun 01 00:41:06.176 HYPERVISOR: exec_cmd: vm set_ios R5 /home/user/Downloads/IOS/c3640-a3js-mz.124-25d.image 
+Jun 01 01:38:40.971 HYPERVISOR: exec_cmd: vm get_status R5 
+Jun 01 01:38:40.972 HYPERVISOR: exec_cmd: vm slot_add_binding R5 0 0 NM-1E 
+Jun 01 01:38:40.972 HYPERVISOR: exec_cmd: vm get_status R5 
+Jun 01 01:38:40.972 HYPERVISOR: exec_cmd: vm slot_add_binding R5 1 0 NM-1E 
+Jun 01 01:39:03.512 HYPERVISOR: exec_cmd: nio create_udp udp-81d1d644-92a4-4c64-92e8-746b64f9044c 10020 127.0.0.1 10021 
+Jun 01 01:39:03.732 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 0 0 udp-81d1d644-92a4-4c64-92e8-746b64f9044c 
+Jun 01 01:39:03.735 HYPERVISOR: exec_cmd: vm get_status R5 
+Jun 01 01:39:05.810 HYPERVISOR: exec_cmd: nio create_udp udp-2d22d926-4aba-4902-b3c3-3cc84bbf387a 10024 127.0.0.1 10025 
+Jun 01 01:39:05.811 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R5 1 0 udp-2d22d926-4aba-4902-b3c3-3cc84bbf387a 
+Jun 01 01:39:05.812 HYPERVISOR: exec_cmd: vm get_status R5 

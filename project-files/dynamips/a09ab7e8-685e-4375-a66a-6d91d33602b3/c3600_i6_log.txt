@@ -1,0 +1,1 @@
+Jun 01 00:49:39.400 VM: renamed from 'R6' to 'Host1'Jun 01 00:50:09.037 VM: renamed from 'Host1' to 'host1'
