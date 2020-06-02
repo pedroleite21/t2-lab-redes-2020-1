@@ -1,1 +1,0 @@
-Jun 01 00:51:35.126 VM: renamed from 'R7' to 'host5'

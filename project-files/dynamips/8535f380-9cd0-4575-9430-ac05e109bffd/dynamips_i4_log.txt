@@ -1,0 +1,46 @@
+Jun 01 00:40:59.273 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 01 00:40:59.273 HYPERVISOR: Started on IP = localhost, TCP port = 57605.
+Jun 01 00:40:59.284 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 01 00:40:59.285 HYPERVISOR: exec_cmd: hypervisor working_dir /home/user/GNS3/projects/t2/project-files/dynamips 
+Jun 01 00:40:59.285 GENERAL: working_dir=/home/user/GNS3/projects/t2/project-files/dynamips
+Jun 01 00:40:59.285 HYPERVISOR: exec_cmd: hypervisor working_dir /home/user/GNS3/projects/t2/project-files/dynamips/8535f380-9cd0-4575-9430-ac05e109bffd 
+Jun 01 00:40:59.285 GENERAL: working_dir=/home/user/GNS3/projects/t2/project-files/dynamips/8535f380-9cd0-4575-9430-ac05e109bffd
+Jun 01 00:40:59.286 HYPERVISOR: exec_cmd: vm create R4 4 c3600 
+Jun 01 00:40:59.286 VM: VM R4 created.
+Jun 01 00:40:59.286 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5003 
+Jun 01 00:40:59.287 HYPERVISOR: exec_cmd: c3600 get_mac_addr R4 
+Jun 01 00:40:59.287 HYPERVISOR: exec_cmd: vm set_nvram R4 256 
+Jun 01 00:40:59.288 HYPERVISOR: exec_cmd: vm set_ram R4 192 
+Jun 01 00:40:59.289 HYPERVISOR: exec_cmd: vm set_ios R4 /home/user/Downloads/IOS/c3640-a3js-mz.124-25d.image 
+Jun 01 00:40:59.290 HYPERVISOR: exec_cmd: vm get_status R4 
+Jun 01 00:40:59.290 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x6050b114 
+Jun 01 00:40:59.381 HYPERVISOR: exec_cmd: vm set_ios R4 /home/user/Downloads/IOS/c3640-a3js-mz.124-25d.image 
+Jun 01 00:41:01.859 HYPERVISOR: exec_cmd: vm set_ios R4 /home/user/Downloads/IOS/c3640-a3js-mz.124-25d.image 
+Jun 01 00:41:07.455 HYPERVISOR: exec_cmd: vm set_ios R4 /home/user/Downloads/IOS/c3640-a3js-mz.124-25d.image 
+Jun 01 00:43:33.169 HYPERVISOR: exec_cmd: vm set_ios R4 /home/user/Downloads/IOS/c3640-a3js-mz.124-25d.image 
+Jun 01 01:38:50.677 HYPERVISOR: exec_cmd: vm get_status R4 
+Jun 01 01:38:50.677 HYPERVISOR: exec_cmd: vm slot_add_binding R4 0 0 NM-1E 
+Jun 01 01:38:50.677 HYPERVISOR: exec_cmd: vm get_status R4 
+Jun 01 01:38:50.677 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 NM-1E 
+Jun 01 01:39:05.822 HYPERVISOR: exec_cmd: nio create_udp udp-89ac486d-da7d-4a80-bbc1-b744d3cdd49d 10026 127.0.0.1 10027 
+Jun 01 01:39:06.041 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-89ac486d-da7d-4a80-bbc1-b744d3cdd49d 
+Jun 01 01:39:06.041 HYPERVISOR: exec_cmd: vm get_status R4 
+Jun 01 01:39:09.539 HYPERVISOR: exec_cmd: nio create_udp udp-691bbd63-6b39-4fec-919a-166eb3ddcb82 10030 127.0.0.1 10031 
+Jun 01 01:39:09.541 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 1 0 udp-691bbd63-6b39-4fec-919a-166eb3ddcb82 
+Jun 01 01:39:09.541 HYPERVISOR: exec_cmd: vm get_status R4 
+Jun 01 01:39:31.416 HYPERVISOR: exec_cmd: vm get_status R4 
+Jun 01 01:39:31.419 HYPERVISOR: exec_cmd: vm slot_add_binding R4 2 0 NM-1E 
+Jun 01 01:39:31.420 HYPERVISOR: exec_cmd: vm get_status R4 
+Jun 01 01:39:31.420 HYPERVISOR: exec_cmd: vm slot_add_binding R4 3 0 NM-1E 
+Jun 01 01:39:38.710 HYPERVISOR: exec_cmd: nio create_udp udp-dea57a5e-e24f-4465-a47d-4203b14594ed 10042 127.0.0.1 10043 
+Jun 01 01:39:38.711 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 2 0 udp-dea57a5e-e24f-4465-a47d-4203b14594ed 
+Jun 01 01:39:38.712 HYPERVISOR: exec_cmd: vm get_status R4 
+Jun 01 01:39:45.917 HYPERVISOR: exec_cmd: nio create_udp udp-a9abb193-44f9-41f1-b532-2b4c143ca212 10048 127.0.0.1 10049 
+Jun 01 01:39:45.919 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 3 0 udp-a9abb193-44f9-41f1-b532-2b4c143ca212 
+Jun 01 01:39:45.919 HYPERVISOR: exec_cmd: vm get_status R4 
+Jun 02 00:56:49.554 HYPERVISOR: exec_cmd: vm set_ghost_status R4 2 
+Jun 02 00:56:49.557 HYPERVISOR: exec_cmd: vm set_ghost_file R4 /home/user/GNS3/projects/t2/project-files/dynamips/c3640-a3js-mz.124-25d.image-192.ghost 
+Jun 02 00:56:49.562 HYPERVISOR: exec_cmd: vm get_status R4 
+Jun 02 00:56:49.563 HYPERVISOR: exec_cmd: vm set_config R4 configs/i4_startup-config.cfg 
+Jun 02 00:56:49.564 HYPERVISOR: exec_cmd: vm start R4 
+Jun 02 00:57:20.126 HYPERVISOR: exec_cmd: vm extract_config R4 

@@ -1,0 +1,27 @@
+Jun 02 01:00:25.942 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 02 01:00:25.942 HYPERVISOR: Started on IP = localhost, TCP port = 34043.
+Jun 02 01:00:25.953 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 02 01:00:25.953 HYPERVISOR: exec_cmd: hypervisor working_dir /home/user/GNS3/projects/t2/project-files/dynamips 
+Jun 02 01:00:25.953 GENERAL: working_dir=/home/user/GNS3/projects/t2/project-files/dynamips
+Jun 02 01:00:25.953 HYPERVISOR: exec_cmd: hypervisor working_dir /home/user/GNS3/projects/t2/project-files/dynamips/a09ab7e8-685e-4375-a66a-6d91d33602b3 
+Jun 02 01:00:25.953 GENERAL: working_dir=/home/user/GNS3/projects/t2/project-files/dynamips/a09ab7e8-685e-4375-a66a-6d91d33602b3
+Jun 02 01:00:25.954 HYPERVISOR: exec_cmd: vm create host1 6 c3600 
+Jun 02 01:00:25.954 VM: VM host1 created.
+Jun 02 01:00:25.954 HYPERVISOR: exec_cmd: vm set_con_tcp_port host1 5007 
+Jun 02 01:00:25.954 HYPERVISOR: exec_cmd: c3600 get_mac_addr host1 
+Jun 02 01:00:25.955 HYPERVISOR: exec_cmd: vm get_status host1 
+Jun 02 01:00:25.955 HYPERVISOR: exec_cmd: vm set_idle_pc host1 0x6050b114 
+Jun 02 01:00:25.956 HYPERVISOR: exec_cmd: vm set_ios host1 /home/user/Downloads/IOS/c3640-a3js-mz.124-25d.image 
+Jun 02 01:00:25.956 HYPERVISOR: exec_cmd: c3600 set_mac_addr host1 cc06.5347.0000 
+Jun 02 01:00:25.956 HYPERVISOR: exec_cmd: vm set_nvram host1 256 
+Jun 02 01:00:25.957 HYPERVISOR: exec_cmd: vm set_ram host1 192 
+Jun 02 01:00:25.957 HYPERVISOR: exec_cmd: vm get_status host1 
+Jun 02 01:00:25.957 HYPERVISOR: exec_cmd: vm slot_add_binding host1 0 0 NM-1E 
+Jun 02 01:00:26.500 HYPERVISOR: exec_cmd: nio create_udp udp-e8526c9f-f3dd-4ff3-9766-3b0e2e41d406 10002 127.0.0.1 10003 
+Jun 02 01:00:26.725 HYPERVISOR: exec_cmd: vm slot_add_nio_binding host1 0 0 udp-e8526c9f-f3dd-4ff3-9766-3b0e2e41d406 
+Jun 02 01:00:26.725 HYPERVISOR: exec_cmd: vm get_status host1 
+Jun 02 01:00:39.893 HYPERVISOR: exec_cmd: vm set_ghost_status host1 2 
+Jun 02 01:00:39.894 HYPERVISOR: exec_cmd: vm set_ghost_file host1 /home/user/GNS3/projects/t2/project-files/dynamips/c3640-a3js-mz.124-25d.image-192.ghost 
+Jun 02 01:00:39.894 HYPERVISOR: exec_cmd: vm get_status host1 
+Jun 02 01:00:39.899 HYPERVISOR: exec_cmd: vm set_config host1 configs/i6_startup-config.cfg 
+Jun 02 01:00:39.901 HYPERVISOR: exec_cmd: vm start host1 
